@@ -41,7 +41,7 @@ class AuthenticatedSessionController extends Controller
         }
 
         // Default redirect untuk peminjam
-        return redirect()->intended(route('dashboard', absolute: false));
+        return redirect()->intended(route('peminjam.dashboard', absolute: false));
     }
 
     /**

@@ -17,7 +17,10 @@ class Alat extends Model
         'id_kategori',
         'stok',
         'kondisi',
-        'harga_denda_per_hari'
+        'harga_sewa_per_hari',  // Baru
+        'harga_denda_per_hari',
+        'deskripsi',            // Baru
+        'gambar'                // Baru
     ];
 
     // Relasi: Alat milik satu kategori
